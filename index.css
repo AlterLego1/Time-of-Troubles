@@ -1,0 +1,8 @@
+@import url(styles/basic.css);
+@import url(styles/header.css);
+@import url(styles/variables.css);
+
+@font-face {
+    font-family: Beer;
+    src: url(fonts/beer-money12.ttf);
+}

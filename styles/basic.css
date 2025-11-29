@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Beer';
+  background-color: var(--main-bg-white);
+}
+.container{
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
