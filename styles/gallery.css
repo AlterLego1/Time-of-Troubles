@@ -1,0 +1,27 @@
+.gallery {
+    text-align: center;
+    padding: 50px 15px 50px;
+    background-color: var(--bg-color-gray);
+}
+.gallery-title {
+    font-size: 34px;
+    font-weight: 700;
+}
+.gallery-image {
+    width: min(100%, 640px);
+    height: min(100%, 420px);
+    object-fit: contain;
+    margin: 55px 0 15px;
+}
+.gallery-description {
+    font-size: 20px;
+    font-weight: 500;
+}
+@media(max-width: 480px){
+  .gallery-title {
+    font-size: 28px;
+}
+.gallery-description {
+    font-size: 18px;
+}
+}

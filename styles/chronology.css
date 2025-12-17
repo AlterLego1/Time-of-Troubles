@@ -1,0 +1,58 @@
+.chronology {
+    text-align: center;
+    padding: 50px 0 60px;
+    background-color: var(--bg-color-gray);
+}
+
+.chronology-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+
+.chronology-subtitle {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 25px;
+}
+
+.list-events {
+    padding: 0 40px;
+}
+
+.element-list-events {
+    list-style: disc;
+    text-align: justify;
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+
+.sublist-events {
+    padding: 0 20px;
+}
+
+.subelement-list-events {
+    list-style: circle;
+    text-align: justify;
+    font-size: 18px;
+    margin: 0 0 2px;
+}
+
+@media(max-width: 480px){
+  .chronology-title {
+    font-size: 28px;
+}
+
+.chronology-subtitle {
+    font-size: 22px;
+}
+.element-list-events {
+    font-size: 18px;
+    margin: 3px 0 0;
+}
+.subelement-list-events {
+    font-size: 16px;
+    margin: 0 0 1px;
+}
+}
+

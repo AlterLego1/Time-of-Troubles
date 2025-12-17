@@ -1,0 +1,36 @@
+.history {
+    padding: 50px 20px 50px;
+    text-align: center;
+    background-color: var(--bg-color-white);
+}
+
+.history-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 35px;
+}
+
+.history-subtitle {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.history-description {
+    font-size: 20px;
+    text-align: justify;
+    margin: 45px 0 45px;
+}
+
+@media(max-width: 480px){
+    .history-title {
+    font-size: 28px;
+    }
+.history-subtitle {
+    font-size: 22px;
+}
+
+.history-description {
+    font-size: 18px;
+}
+}
