@@ -1,0 +1,60 @@
+.chronology {
+    text-align: center;
+    background-color: var(--bg-color-gray);
+    padding: 50px 5px 50px;
+}
+
+.chronology-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+
+.chronology-subtitle {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 25px;
+}
+
+.chronology-list {
+    text-align: justify;
+    padding: 0 30px 0;
+}
+
+.chronology-list-item {
+    font-size: 20px;
+    list-style: disc;
+    margin: 8px 0 0;
+}
+
+.chronology-sublist {
+    padding: 0 15px 0;
+}
+
+.chronology-sublist-item {
+    font-size: 18px;
+    font-weight: 100;
+    list-style: circle;
+    font-style: italic;
+    margin: 0 0 4px;
+}
+
+@media(max-width:480px){
+   .chronology-title {
+    font-size: 28px;
+}
+
+.chronology-subtitle {
+    font-size: 22px;
+}
+
+.chronology-list-item {
+    font-size: 18px;
+    margin: 4px 0 0;
+}
+
+.chronology-sublist-item {
+    font-size: 16px;
+    margin: 0 0 1px;
+}
+}

@@ -1,0 +1,84 @@
+.contacts {
+    padding: 50px 10px 20px;
+    text-align: center;
+    background-color: var(--bg-color-white);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contacts-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+.contacts-link {
+    margin: 0 auto 30px;
+    font-size: 25px;
+    background-color: var(--color-black);
+    border-radius: 20px;
+    color: var(--bg-color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 220px;
+    height: 50px;
+}
+
+.contacts-link:hover{
+    opacity: 0.8;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.social-icon {
+    width: 65px;
+    height: 65px;
+}
+
+.youtube-icon:hover {
+    fill: rgb(255, 0, 0);
+}
+
+.vk-icon:hover {
+    fill: rgb(25, 0, 255);
+}
+
+.inst-icon:hover {
+    fill: rgb(197, 23, 110);
+}
+
+.contacts-description {
+    margin: 30px auto;
+    font-size: 18px;
+    color: var(--color-gray);
+    font-family: 'Beer';
+    max-width: 200px;
+}
+
+@media(max-width:480px){
+   .contacts-title {
+    font-size: 28px;
+}
+
+.contacts-link {
+    font-size: 22px;
+    max-width: 190px;
+    height: 40px;
+}
+.social-icon {
+    width: 55px;
+    height: 55px;
+}
+.address {
+    column-gap: 10px;
+}
+.contacts-description {
+    font-size: 16px;
+    max-width: 180px;
+}
+}
